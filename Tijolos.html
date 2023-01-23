@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seja Bem Vindo</title>
+    <style>
+        body{
+            background: rgb(144, 144, 212);
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        window.alert("Olá gostaria de saber quantos tijolos irá gastar no seu terreno? Me passe as medidas, eu te ajudo!");
+       var n1 = window.prompt("Quantos Metros Tem a Frente do Terreno ?"); // 10
+       var n2 = window.prompt("Quantos metros deseja construir ?"); //80
+       var n3 = window.prompt("Qual a altura da parede ?"); //3
+       var s = n2 / n1 //8
+       var s = s * n3 * 2
+       var n1 = n1 * n3 * 2
+       var l = (s + n1) * 40
+       document.write(`Você irá gastar <strong> ${l} </strong> Tijolos`);
+    </script>
+</body>
+</html>
